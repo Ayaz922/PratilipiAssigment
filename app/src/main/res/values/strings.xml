@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Pratilipi Assigment</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_discard">Discard Edit</string>
+    <string name="action_add">Add Contact</string>
+    <string name="error_load">Load Failed~</string>
+    <string name="empty_data">Empty Data~</string>
+
+    <string name="name_activity_add_contact">Edit Contact</string>
+    <string name="sorr_text">Sorry Ma\'am didn\'t get time to include add/edit photo feature due to examination pressure</string>
+    <string name="about">Pratilipi is a Sanskrit word which means \'you become what you read\'. It allows users to publish and read original works such as stories, poetry, essays and articles. It also allows readers to rate content posted by others</string>
+</resources>
