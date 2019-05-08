@@ -157,7 +157,6 @@ public abstract class BaseRecyclerAdapter<T extends Comparable<? super T>>
     }
 
 
-    //增加数据
     public void add(T item) {
         mData.add(item);
         //notifyItemInserted(position);
@@ -181,7 +180,6 @@ public abstract class BaseRecyclerAdapter<T extends Comparable<? super T>>
     }
 
 
-    //得到Header和Footer的个数
     public int getHeaderViewsCount() {
         return mHeaderView == null ? 0 : 1;
     }
@@ -191,8 +189,6 @@ public abstract class BaseRecyclerAdapter<T extends Comparable<? super T>>
         return mFooterView == null ? 0 : 1;
     }
 
-
-    //初始化点击事件
     private void initClickListener(final BaseViewHolder baseViewHolder) {
         if (onItemClickListener != null) {
             baseViewHolder.itemView.setOnClickListener(new OnClickListener() {
@@ -214,7 +210,7 @@ public abstract class BaseRecyclerAdapter<T extends Comparable<? super T>>
     }
 
 
-    //点击事件
+
     public void setOnItemClickListener(OnItemClickListener onRecyclerViewItemClickListener) {
         this.onItemClickListener = onRecyclerViewItemClickListener;
     }

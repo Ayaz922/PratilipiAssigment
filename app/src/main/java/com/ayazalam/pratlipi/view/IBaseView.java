@@ -1,8 +1,6 @@
 package com.ayazalam.pratlipi.view;
 
-/**
- * Created by skylineTan on 2016/6/30.
- */
+
 public interface IBaseView<M> extends IView {
 
     void showLoading(boolean pullToRefresh);

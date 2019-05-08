@@ -28,6 +28,7 @@ public class SplashActivity extends AppCompatActivity {
         setContentView(R.layout.activity_splash);
         if(checkPermissionForWriteContact()&& checkPermissionForReadContact()) {
             startActivity(new Intent(this,MainActivity.class));
+            finish();
         }
         else
         {
